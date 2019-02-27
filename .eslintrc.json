@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": "warn"
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": ["airbnb-base", "plugin:prettier/recommended"],
+  "globals": {
+    "Atomics": "readable",
+    "SharedArrayBuffer": "readable"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  }
+}
